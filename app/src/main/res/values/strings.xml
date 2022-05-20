@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Puriy Movil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Strings for app -->
+    <!-- Splash Activity -->
+    <string name="str_splash_a">Puriy</string>
+    <string name="str_splash_b">Perú</string>
+    <!-- Login Activity -->
+    <string name="str_log_a">Hola</string>
+    <string name="str_log_b">Viajero</string>
+    <string name="str_log_c">Descubramos juntos nuevas experiencias</string>
+    <string name="str_log_email">Email</string>
+    <string name="str_log_password">Contraseña</string>
+    <string name="str_log_sign_up">Crear una nueva cuenta</string>
+    <string name="str_log_sign_in">Iniciar Sesión</string>
+    <string name="str_log_forgot_pass">Olvidaste tu contraseña?</string>
+
+
+
+</resources>

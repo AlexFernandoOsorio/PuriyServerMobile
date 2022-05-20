@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PuriyMovil" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PuriyMovil.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PuriyMovil.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PuriyMovil.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- Styles for Splash No actionBar -->
+    <style name="FullDesingTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/img_splash_orquidea</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Styles for Login No actionBar -->
+    <style name="FullDesingThemeLogin" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Styles for login design -->
+    <style name="EditScreenTextInputLayoutStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/colorLoginTextInputLayout</item>
+        <item name="colorControlActivated">@color/colorLoginTextInputLayout</item>
+        <item name="colorControlHighlight">@color/colorLoginTextInputLayout</item>
+        <item name="colorAccent">@color/colorLoginTextInputLayout</item>
+        <item name="android:textColorHint">@color/colorLoginTextInputLayout</item>
+
+    </style>
+</resources>
